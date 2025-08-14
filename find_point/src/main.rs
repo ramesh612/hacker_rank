@@ -14,7 +14,7 @@ use std::io::{self, BufRead, Write};
  */
 
 fn find_point(px: i32, py: i32, qx: i32, qy: i32) -> Vec<i32> {
-    vec![qx+qx-px,qy+qy-py]
+    vec![qx + qx - px, qy + qy - py]
 }
 
 fn main() {
